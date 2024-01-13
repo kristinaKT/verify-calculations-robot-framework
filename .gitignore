@@ -1,5 +1,5 @@
 # Robot logs
-log.html
-*output.xml
-report.html
-selenium*png
+/tests/log.html
+/tests/*output.xml
+/tests/report.html
+/tests/selenium*png
