@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 6.1.1 (Python 3.12.1 on win32)" generated="20240113 11:55:52.736" rpa="false" schemaversion="4">
+<robot generator="Robot 6.1.1 (Python 3.12.1 on win32)" generated="20240113 12:22:26.022" rpa="false" schemaversion="4">
 <suite id="s1" name="Calculator" source="C:\Automation\verify-calculations-robot-framework\tests\calculator.robot">
 <test id="s1-t1" name="Verify calculations are true" line="5">
 <kw name="Log To Console" library="BuiltIn">
 <arg>Calculation starting...</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20240113 11:55:52.752" endtime="20240113 11:55:52.760"/>
+<status status="PASS" starttime="20240113 12:22:26.038" endtime="20240113 12:22:26.038"/>
 </kw>
 <kw name="Verify calculation" library="calculator">
 <arg>1 + 1</arg>
@@ -15,38 +15,38 @@
 <kw name="Log To Console" library="BuiltIn">
 <arg>Calculating: ${task}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20240113 11:55:52.760" endtime="20240113 11:55:52.760"/>
+<status status="PASS" starttime="20240113 12:22:26.038" endtime="20240113 12:22:26.038"/>
 </kw>
 <kw name="Do Math" library="calcululator">
 <var>${given_result}</var>
 <arg>${task}</arg>
-<msg timestamp="20240113 11:55:52.760" level="INFO">${given_result} = 2</msg>
-<status status="PASS" starttime="20240113 11:55:52.760" endtime="20240113 11:55:52.760"/>
+<msg timestamp="20240113 12:22:26.038" level="INFO">${given_result} = 2</msg>
+<status status="PASS" starttime="20240113 12:22:26.038" endtime="20240113 12:22:26.038"/>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <arg>Result = ${given_result}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20240113 11:55:52.760" endtime="20240113 11:55:52.760"/>
+<status status="PASS" starttime="20240113 12:22:26.038" endtime="20240113 12:22:26.038"/>
 </kw>
 <kw name="Should Be Equal As Numbers" library="BuiltIn">
 <arg>${given_result}</arg>
 <arg>${expected}</arg>
 <doc>Fails if objects are unequal after converting them to real numbers.</doc>
-<msg timestamp="20240113 11:55:52.760" level="INFO">Argument types are:
+<msg timestamp="20240113 12:22:26.038" level="INFO">Argument types are:
 &lt;class 'int'&gt;
 &lt;class 'str'&gt;</msg>
-<status status="PASS" starttime="20240113 11:55:52.760" endtime="20240113 11:55:52.760"/>
+<status status="PASS" starttime="20240113 12:22:26.038" endtime="20240113 12:22:26.038"/>
 </kw>
-<status status="PASS" starttime="20240113 11:55:52.760" endtime="20240113 11:55:52.760"/>
+<status status="PASS" starttime="20240113 12:22:26.038" endtime="20240113 12:22:26.038"/>
 </branch>
-<status status="PASS" starttime="20240113 11:55:52.760" endtime="20240113 11:55:52.760"/>
+<status status="PASS" starttime="20240113 12:22:26.038" endtime="20240113 12:22:26.038"/>
 </if>
 <kw name="Log To Console" library="BuiltIn">
 <arg>Calculation true</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20240113 11:55:52.760" endtime="20240113 11:55:52.760"/>
+<status status="PASS" starttime="20240113 12:22:26.038" endtime="20240113 12:22:26.038"/>
 </kw>
-<status status="PASS" starttime="20240113 11:55:52.760" endtime="20240113 11:55:52.760"/>
+<status status="PASS" starttime="20240113 12:22:26.038" endtime="20240113 12:22:26.038"/>
 </kw>
 <kw name="Verify calculation" library="calculator">
 <arg>10 + 2</arg>
@@ -56,38 +56,38 @@
 <kw name="Log To Console" library="BuiltIn">
 <arg>Calculating: ${task}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20240113 11:55:52.760" endtime="20240113 11:55:52.760"/>
+<status status="PASS" starttime="20240113 12:22:26.038" endtime="20240113 12:22:26.038"/>
 </kw>
 <kw name="Do Math" library="calcululator">
 <var>${given_result}</var>
 <arg>${task}</arg>
-<msg timestamp="20240113 11:55:52.760" level="INFO">${given_result} = 12</msg>
-<status status="PASS" starttime="20240113 11:55:52.760" endtime="20240113 11:55:52.760"/>
+<msg timestamp="20240113 12:22:26.038" level="INFO">${given_result} = 12</msg>
+<status status="PASS" starttime="20240113 12:22:26.038" endtime="20240113 12:22:26.038"/>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <arg>Result = ${given_result}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20240113 11:55:52.760" endtime="20240113 11:55:52.760"/>
+<status status="PASS" starttime="20240113 12:22:26.038" endtime="20240113 12:22:26.038"/>
 </kw>
 <kw name="Should Be Equal As Numbers" library="BuiltIn">
 <arg>${given_result}</arg>
 <arg>${expected}</arg>
 <doc>Fails if objects are unequal after converting them to real numbers.</doc>
-<msg timestamp="20240113 11:55:52.760" level="INFO">Argument types are:
+<msg timestamp="20240113 12:22:26.038" level="INFO">Argument types are:
 &lt;class 'int'&gt;
 &lt;class 'str'&gt;</msg>
-<status status="PASS" starttime="20240113 11:55:52.760" endtime="20240113 11:55:52.760"/>
+<status status="PASS" starttime="20240113 12:22:26.038" endtime="20240113 12:22:26.038"/>
 </kw>
-<status status="PASS" starttime="20240113 11:55:52.760" endtime="20240113 11:55:52.760"/>
+<status status="PASS" starttime="20240113 12:22:26.038" endtime="20240113 12:22:26.038"/>
 </branch>
-<status status="PASS" starttime="20240113 11:55:52.760" endtime="20240113 11:55:52.760"/>
+<status status="PASS" starttime="20240113 12:22:26.038" endtime="20240113 12:22:26.038"/>
 </if>
 <kw name="Log To Console" library="BuiltIn">
 <arg>Calculation true</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20240113 11:55:52.760" endtime="20240113 11:55:52.760"/>
+<status status="PASS" starttime="20240113 12:22:26.038" endtime="20240113 12:22:26.038"/>
 </kw>
-<status status="PASS" starttime="20240113 11:55:52.760" endtime="20240113 11:55:52.760"/>
+<status status="PASS" starttime="20240113 12:22:26.038" endtime="20240113 12:22:26.038"/>
 </kw>
 <kw name="Verify calculation" library="calculator">
 <arg>10 - 2</arg>
@@ -97,38 +97,38 @@
 <kw name="Log To Console" library="BuiltIn">
 <arg>Calculating: ${task}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20240113 11:55:52.760" endtime="20240113 11:55:52.760"/>
+<status status="PASS" starttime="20240113 12:22:26.038" endtime="20240113 12:22:26.038"/>
 </kw>
 <kw name="Do Math" library="calcululator">
 <var>${given_result}</var>
 <arg>${task}</arg>
-<msg timestamp="20240113 11:55:52.760" level="INFO">${given_result} = 8</msg>
-<status status="PASS" starttime="20240113 11:55:52.760" endtime="20240113 11:55:52.760"/>
+<msg timestamp="20240113 12:22:26.038" level="INFO">${given_result} = 8</msg>
+<status status="PASS" starttime="20240113 12:22:26.038" endtime="20240113 12:22:26.038"/>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <arg>Result = ${given_result}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20240113 11:55:52.760" endtime="20240113 11:55:52.760"/>
+<status status="PASS" starttime="20240113 12:22:26.038" endtime="20240113 12:22:26.045"/>
 </kw>
 <kw name="Should Be Equal As Numbers" library="BuiltIn">
 <arg>${given_result}</arg>
 <arg>${expected}</arg>
 <doc>Fails if objects are unequal after converting them to real numbers.</doc>
-<msg timestamp="20240113 11:55:52.760" level="INFO">Argument types are:
+<msg timestamp="20240113 12:22:26.045" level="INFO">Argument types are:
 &lt;class 'int'&gt;
 &lt;class 'str'&gt;</msg>
-<status status="PASS" starttime="20240113 11:55:52.760" endtime="20240113 11:55:52.760"/>
+<status status="PASS" starttime="20240113 12:22:26.045" endtime="20240113 12:22:26.045"/>
 </kw>
-<status status="PASS" starttime="20240113 11:55:52.760" endtime="20240113 11:55:52.760"/>
+<status status="PASS" starttime="20240113 12:22:26.038" endtime="20240113 12:22:26.045"/>
 </branch>
-<status status="PASS" starttime="20240113 11:55:52.760" endtime="20240113 11:55:52.760"/>
+<status status="PASS" starttime="20240113 12:22:26.038" endtime="20240113 12:22:26.045"/>
 </if>
 <kw name="Log To Console" library="BuiltIn">
 <arg>Calculation true</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20240113 11:55:52.760" endtime="20240113 11:55:52.760"/>
+<status status="PASS" starttime="20240113 12:22:26.045" endtime="20240113 12:22:26.045"/>
 </kw>
-<status status="PASS" starttime="20240113 11:55:52.760" endtime="20240113 11:55:52.760"/>
+<status status="PASS" starttime="20240113 12:22:26.038" endtime="20240113 12:22:26.045"/>
 </kw>
 <kw name="Verify calculation" library="calculator">
 <arg>8 - 10</arg>
@@ -138,38 +138,38 @@
 <kw name="Log To Console" library="BuiltIn">
 <arg>Calculating: ${task}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20240113 11:55:52.768" endtime="20240113 11:55:52.768"/>
+<status status="PASS" starttime="20240113 12:22:26.045" endtime="20240113 12:22:26.045"/>
 </kw>
 <kw name="Do Math" library="calcululator">
 <var>${given_result}</var>
 <arg>${task}</arg>
-<msg timestamp="20240113 11:55:52.768" level="INFO">${given_result} = -2</msg>
-<status status="PASS" starttime="20240113 11:55:52.768" endtime="20240113 11:55:52.768"/>
+<msg timestamp="20240113 12:22:26.045" level="INFO">${given_result} = -2</msg>
+<status status="PASS" starttime="20240113 12:22:26.045" endtime="20240113 12:22:26.045"/>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <arg>Result = ${given_result}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20240113 11:55:52.768" endtime="20240113 11:55:52.768"/>
+<status status="PASS" starttime="20240113 12:22:26.045" endtime="20240113 12:22:26.045"/>
 </kw>
 <kw name="Should Be Equal As Numbers" library="BuiltIn">
 <arg>${given_result}</arg>
 <arg>${expected}</arg>
 <doc>Fails if objects are unequal after converting them to real numbers.</doc>
-<msg timestamp="20240113 11:55:52.768" level="INFO">Argument types are:
+<msg timestamp="20240113 12:22:26.045" level="INFO">Argument types are:
 &lt;class 'int'&gt;
 &lt;class 'str'&gt;</msg>
-<status status="PASS" starttime="20240113 11:55:52.768" endtime="20240113 11:55:52.768"/>
+<status status="PASS" starttime="20240113 12:22:26.045" endtime="20240113 12:22:26.045"/>
 </kw>
-<status status="PASS" starttime="20240113 11:55:52.768" endtime="20240113 11:55:52.768"/>
+<status status="PASS" starttime="20240113 12:22:26.045" endtime="20240113 12:22:26.045"/>
 </branch>
-<status status="PASS" starttime="20240113 11:55:52.768" endtime="20240113 11:55:52.768"/>
+<status status="PASS" starttime="20240113 12:22:26.045" endtime="20240113 12:22:26.045"/>
 </if>
 <kw name="Log To Console" library="BuiltIn">
 <arg>Calculation true</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20240113 11:55:52.768" endtime="20240113 11:55:52.768"/>
+<status status="PASS" starttime="20240113 12:22:26.045" endtime="20240113 12:22:26.045"/>
 </kw>
-<status status="PASS" starttime="20240113 11:55:52.768" endtime="20240113 11:55:52.768"/>
+<status status="PASS" starttime="20240113 12:22:26.045" endtime="20240113 12:22:26.045"/>
 </kw>
 <kw name="Verify calculation" library="calculator">
 <arg>1 * 2</arg>
@@ -179,38 +179,38 @@
 <kw name="Log To Console" library="BuiltIn">
 <arg>Calculating: ${task}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20240113 11:55:52.768" endtime="20240113 11:55:52.768"/>
+<status status="PASS" starttime="20240113 12:22:26.045" endtime="20240113 12:22:26.045"/>
 </kw>
 <kw name="Do Math" library="calcululator">
 <var>${given_result}</var>
 <arg>${task}</arg>
-<msg timestamp="20240113 11:55:52.768" level="INFO">${given_result} = 2</msg>
-<status status="PASS" starttime="20240113 11:55:52.768" endtime="20240113 11:55:52.768"/>
+<msg timestamp="20240113 12:22:26.045" level="INFO">${given_result} = 2</msg>
+<status status="PASS" starttime="20240113 12:22:26.045" endtime="20240113 12:22:26.045"/>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <arg>Result = ${given_result}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20240113 11:55:52.768" endtime="20240113 11:55:52.768"/>
+<status status="PASS" starttime="20240113 12:22:26.045" endtime="20240113 12:22:26.045"/>
 </kw>
 <kw name="Should Be Equal As Numbers" library="BuiltIn">
 <arg>${given_result}</arg>
 <arg>${expected}</arg>
 <doc>Fails if objects are unequal after converting them to real numbers.</doc>
-<msg timestamp="20240113 11:55:52.768" level="INFO">Argument types are:
+<msg timestamp="20240113 12:22:26.045" level="INFO">Argument types are:
 &lt;class 'int'&gt;
 &lt;class 'str'&gt;</msg>
-<status status="PASS" starttime="20240113 11:55:52.768" endtime="20240113 11:55:52.768"/>
+<status status="PASS" starttime="20240113 12:22:26.045" endtime="20240113 12:22:26.045"/>
 </kw>
-<status status="PASS" starttime="20240113 11:55:52.768" endtime="20240113 11:55:52.768"/>
+<status status="PASS" starttime="20240113 12:22:26.045" endtime="20240113 12:22:26.045"/>
 </branch>
-<status status="PASS" starttime="20240113 11:55:52.768" endtime="20240113 11:55:52.768"/>
+<status status="PASS" starttime="20240113 12:22:26.045" endtime="20240113 12:22:26.045"/>
 </if>
 <kw name="Log To Console" library="BuiltIn">
 <arg>Calculation true</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20240113 11:55:52.768" endtime="20240113 11:55:52.768"/>
+<status status="PASS" starttime="20240113 12:22:26.045" endtime="20240113 12:22:26.045"/>
 </kw>
-<status status="PASS" starttime="20240113 11:55:52.768" endtime="20240113 11:55:52.768"/>
+<status status="PASS" starttime="20240113 12:22:26.045" endtime="20240113 12:22:26.045"/>
 </kw>
 <kw name="Verify calculation" library="calculator">
 <arg>10 / 2</arg>
@@ -220,38 +220,38 @@
 <kw name="Log To Console" library="BuiltIn">
 <arg>Calculating: ${task}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20240113 11:55:52.768" endtime="20240113 11:55:52.768"/>
+<status status="PASS" starttime="20240113 12:22:26.045" endtime="20240113 12:22:26.045"/>
 </kw>
 <kw name="Do Math" library="calcululator">
 <var>${given_result}</var>
 <arg>${task}</arg>
-<msg timestamp="20240113 11:55:52.768" level="INFO">${given_result} = 5.0</msg>
-<status status="PASS" starttime="20240113 11:55:52.768" endtime="20240113 11:55:52.768"/>
+<msg timestamp="20240113 12:22:26.045" level="INFO">${given_result} = 5.0</msg>
+<status status="PASS" starttime="20240113 12:22:26.045" endtime="20240113 12:22:26.045"/>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <arg>Result = ${given_result}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20240113 11:55:52.768" endtime="20240113 11:55:52.768"/>
+<status status="PASS" starttime="20240113 12:22:26.045" endtime="20240113 12:22:26.045"/>
 </kw>
 <kw name="Should Be Equal As Numbers" library="BuiltIn">
 <arg>${given_result}</arg>
 <arg>${expected}</arg>
 <doc>Fails if objects are unequal after converting them to real numbers.</doc>
-<msg timestamp="20240113 11:55:52.768" level="INFO">Argument types are:
+<msg timestamp="20240113 12:22:26.045" level="INFO">Argument types are:
 &lt;class 'float'&gt;
 &lt;class 'str'&gt;</msg>
-<status status="PASS" starttime="20240113 11:55:52.768" endtime="20240113 11:55:52.768"/>
+<status status="PASS" starttime="20240113 12:22:26.045" endtime="20240113 12:22:26.045"/>
 </kw>
-<status status="PASS" starttime="20240113 11:55:52.768" endtime="20240113 11:55:52.768"/>
+<status status="PASS" starttime="20240113 12:22:26.045" endtime="20240113 12:22:26.045"/>
 </branch>
-<status status="PASS" starttime="20240113 11:55:52.768" endtime="20240113 11:55:52.768"/>
+<status status="PASS" starttime="20240113 12:22:26.045" endtime="20240113 12:22:26.045"/>
 </if>
 <kw name="Log To Console" library="BuiltIn">
 <arg>Calculation true</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20240113 11:55:52.768" endtime="20240113 11:55:52.768"/>
+<status status="PASS" starttime="20240113 12:22:26.045" endtime="20240113 12:22:26.045"/>
 </kw>
-<status status="PASS" starttime="20240113 11:55:52.768" endtime="20240113 11:55:52.768"/>
+<status status="PASS" starttime="20240113 12:22:26.045" endtime="20240113 12:22:26.045"/>
 </kw>
 <kw name="Verify calculation" library="calculator">
 <arg>1 + 2 * 3 / 2</arg>
@@ -261,38 +261,38 @@
 <kw name="Log To Console" library="BuiltIn">
 <arg>Calculating: ${task}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20240113 11:55:52.768" endtime="20240113 11:55:52.768"/>
+<status status="PASS" starttime="20240113 12:22:26.045" endtime="20240113 12:22:26.045"/>
 </kw>
 <kw name="Do Math" library="calcululator">
 <var>${given_result}</var>
 <arg>${task}</arg>
-<msg timestamp="20240113 11:55:52.768" level="INFO">${given_result} = 4.0</msg>
-<status status="PASS" starttime="20240113 11:55:52.768" endtime="20240113 11:55:52.768"/>
+<msg timestamp="20240113 12:22:26.045" level="INFO">${given_result} = 4.0</msg>
+<status status="PASS" starttime="20240113 12:22:26.045" endtime="20240113 12:22:26.045"/>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <arg>Result = ${given_result}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20240113 11:55:52.768" endtime="20240113 11:55:52.776"/>
+<status status="PASS" starttime="20240113 12:22:26.045" endtime="20240113 12:22:26.045"/>
 </kw>
 <kw name="Should Be Equal As Numbers" library="BuiltIn">
 <arg>${given_result}</arg>
 <arg>${expected}</arg>
 <doc>Fails if objects are unequal after converting them to real numbers.</doc>
-<msg timestamp="20240113 11:55:52.776" level="INFO">Argument types are:
+<msg timestamp="20240113 12:22:26.045" level="INFO">Argument types are:
 &lt;class 'float'&gt;
 &lt;class 'str'&gt;</msg>
-<status status="PASS" starttime="20240113 11:55:52.776" endtime="20240113 11:55:52.776"/>
+<status status="PASS" starttime="20240113 12:22:26.045" endtime="20240113 12:22:26.045"/>
 </kw>
-<status status="PASS" starttime="20240113 11:55:52.768" endtime="20240113 11:55:52.776"/>
+<status status="PASS" starttime="20240113 12:22:26.045" endtime="20240113 12:22:26.045"/>
 </branch>
-<status status="PASS" starttime="20240113 11:55:52.768" endtime="20240113 11:55:52.776"/>
+<status status="PASS" starttime="20240113 12:22:26.045" endtime="20240113 12:22:26.045"/>
 </if>
 <kw name="Log To Console" library="BuiltIn">
 <arg>Calculation true</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20240113 11:55:52.776" endtime="20240113 11:55:52.776"/>
+<status status="PASS" starttime="20240113 12:22:26.045" endtime="20240113 12:22:26.045"/>
 </kw>
-<status status="PASS" starttime="20240113 11:55:52.768" endtime="20240113 11:55:52.776"/>
+<status status="PASS" starttime="20240113 12:22:26.045" endtime="20240113 12:22:26.045"/>
 </kw>
 <kw name="Verify calculation" library="calculator">
 <arg>(4 + 8) * 2 / 4</arg>
@@ -302,42 +302,42 @@
 <kw name="Log To Console" library="BuiltIn">
 <arg>Calculating: ${task}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20240113 11:55:52.776" endtime="20240113 11:55:52.776"/>
+<status status="PASS" starttime="20240113 12:22:26.045" endtime="20240113 12:22:26.045"/>
 </kw>
 <kw name="Do Math" library="calcululator">
 <var>${given_result}</var>
 <arg>${task}</arg>
-<msg timestamp="20240113 11:55:52.776" level="INFO">${given_result} = 6.0</msg>
-<status status="PASS" starttime="20240113 11:55:52.776" endtime="20240113 11:55:52.776"/>
+<msg timestamp="20240113 12:22:26.045" level="INFO">${given_result} = 6.0</msg>
+<status status="PASS" starttime="20240113 12:22:26.045" endtime="20240113 12:22:26.045"/>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <arg>Result = ${given_result}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20240113 11:55:52.776" endtime="20240113 11:55:52.776"/>
+<status status="PASS" starttime="20240113 12:22:26.045" endtime="20240113 12:22:26.045"/>
 </kw>
 <kw name="Should Be Equal As Numbers" library="BuiltIn">
 <arg>${given_result}</arg>
 <arg>${expected}</arg>
 <doc>Fails if objects are unequal after converting them to real numbers.</doc>
-<msg timestamp="20240113 11:55:52.776" level="INFO">Argument types are:
+<msg timestamp="20240113 12:22:26.045" level="INFO">Argument types are:
 &lt;class 'float'&gt;
 &lt;class 'str'&gt;</msg>
-<status status="PASS" starttime="20240113 11:55:52.776" endtime="20240113 11:55:52.776"/>
+<status status="PASS" starttime="20240113 12:22:26.045" endtime="20240113 12:22:26.045"/>
 </kw>
-<status status="PASS" starttime="20240113 11:55:52.776" endtime="20240113 11:55:52.776"/>
+<status status="PASS" starttime="20240113 12:22:26.045" endtime="20240113 12:22:26.045"/>
 </branch>
-<status status="PASS" starttime="20240113 11:55:52.776" endtime="20240113 11:55:52.776"/>
+<status status="PASS" starttime="20240113 12:22:26.045" endtime="20240113 12:22:26.045"/>
 </if>
 <kw name="Log To Console" library="BuiltIn">
 <arg>Calculation true</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20240113 11:55:52.776" endtime="20240113 11:55:52.776"/>
+<status status="PASS" starttime="20240113 12:22:26.045" endtime="20240113 12:22:26.053"/>
 </kw>
-<status status="PASS" starttime="20240113 11:55:52.776" endtime="20240113 11:55:52.776"/>
+<status status="PASS" starttime="20240113 12:22:26.045" endtime="20240113 12:22:26.053"/>
 </kw>
-<status status="PASS" starttime="20240113 11:55:52.752" endtime="20240113 11:55:52.776"/>
+<status status="PASS" starttime="20240113 12:22:26.038" endtime="20240113 12:22:26.053"/>
 </test>
-<status status="PASS" starttime="20240113 11:55:52.744" endtime="20240113 11:55:52.776"/>
+<status status="PASS" starttime="20240113 12:22:26.022" endtime="20240113 12:22:26.053"/>
 </suite>
 <statistics>
 <total>
